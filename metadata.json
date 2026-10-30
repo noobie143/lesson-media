@@ -1,0 +1,6 @@
+{
+  "name": "Vidya Nestham - Rural EdTech Companion",
+  "description": "A tactile, bilingual primary education companion for rural and tribal learners in Andhra Pradesh with voice audio, gamified quests, and foundational literacy and numeracy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,216 @@
+---
+name: Vidya Nestham Rural EdTech
+colors:
+  surface: '#fdf9ed'
+  surface-dim: '#dddace'
+  surface-bright: '#fdf9ed'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f7f3e8'
+  surface-container: '#f2eee2'
+  surface-container-high: '#ece8dc'
+  surface-container-highest: '#e6e2d7'
+  on-surface: '#1c1c15'
+  on-surface-variant: '#404942'
+  inverse-surface: '#313129'
+  inverse-on-surface: '#f4f1e5'
+  outline: '#707971'
+  outline-variant: '#bfc9c0'
+  surface-tint: '#266a47'
+  primary: '#004428'
+  on-primary: '#ffffff'
+  primary-container: '#155d3b'
+  on-primary-container: '#8ed4a9'
+  inverse-primary: '#90d5aa'
+  secondary: '#056a65'
+  on-secondary: '#ffffff'
+  secondary-container: '#a1f1ea'
+  on-secondary-container: '#14706b'
+  tertiary: '#745b00'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#cca835'
+  on-tertiary-container: '#4f3e00'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#acf2c5'
+  primary-fixed-dim: '#90d5aa'
+  on-primary-fixed: '#002111'
+  on-primary-fixed-variant: '#025231'
+  secondary-fixed: '#a1f1ea'
+  secondary-fixed-dim: '#85d4ce'
+  on-secondary-fixed: '#00201e'
+  on-secondary-fixed-variant: '#00504c'
+  tertiary-fixed: '#ffe08a'
+  tertiary-fixed-dim: '#e9c34d'
+  on-tertiary-fixed: '#241a00'
+  on-tertiary-fixed-variant: '#574400'
+  background: '#fdf9ed'
+  on-background: '#1c1c15'
+  surface-variant: '#e6e2d7'
+typography:
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 48px
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 42px
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '700'
+    lineHeight: 36px
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 30px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '500'
+    lineHeight: 30px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 26px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 24px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 26px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 22px
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 18px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system is tailored for primary school learners (Classes 1â€“5, ages 5â€“11) in the Eastern Ghats region of Andhra Pradesh. The interface channels the organic warmth and geography of Araku Valley and Paderu through lush botanic greens, solar reward golds, and parchment tones. 
+
+The aesthetic is **Tactile Warmth & Playful Clarity**. It eschews sterile institutional surfaces in favor of chunky, high-affordance elements designed for low-friction touchscreens, budget Android devices, and emerging digital literacies. The emotional tone must evoke safety, encouraging companionship, and tactile celebrationâ€”making every learning micro-action feel as tangible as a wooden stamp or village school reward badge.
+
+## Colors
+
+The palette grounds the interface in nature-inspired hues optimized for high legibility under outdoor sun conditions on mid-tier mobile screens.
+
+- **Primary (`#155D3B` - Forest Green):** Anchor color for primary actions, bottom navigation active states, and major task completion containers.
+- **Deep Accent (`#10452F` - Deep Forest Green):** Reserved for high-contrast headlines, critical Telugu typography, and anchor borders to maximize contrast against ivory backdrops.
+- **Secondary (`#287D78` - Support Teal):** Dedicated to auditory anchors, pronounce-aloud prompts, listening assistive tools, and auxiliary tags.
+- **Tertiary (`#F2CB55` - Reward Gold):** Gamification currencyâ€”stars, streaks, level progression milestones, and active quest rings.
+- **Background Neutral (`#FFFBEF` - Ivory):** Soft daylight canvas that reduces blue-light strain without producing the harsh glare of raw white (`#FFFFFF`).
+- **Surface (`#FFFFFF`):** High-affordance elevated cards, question sheets, and dialogue tiles.
+- **Success & State Mint (`#DDF5E8`):** Micro-celebration fills, correct answer pills, and completed lesson nodes.
+- **Secondary Text (`#666666`):** Metainformation, subheadings, and contextual hints exceeding WCAG AA criteria.
+- **Critical Alert (`#C62828`):** Direct, unambiguous error and retry states.
+
+## Typography
+
+The bilingual nature of the learning companion demands strict vertical metrics. All Telugu copy must default to **Noto Sans Telugu**, while English system copy defaults to **Plus Jakarta Sans**. 
+
+Crucially, Telugu script features extensive vertical stacks (à°µà°¤à±à°¤à±à°²à± - subscript consonants, and à°—à±à°£à°¿à°‚à°¤à°¸,,¸,`HH›İÙ[X]˜\ÊKˆÈ™]™[Û\[™ÈÙˆÛ\\ØÙ[™\œÈ[™\ØÙ[™\œÎ‚‹HXZ[Z[ˆHZ[š[][H˜\Ù[[™H[™KZZYÚ][\Y\ˆÙˆ
+ŠŒKJŠˆXÜ›ÜÜÈ[›ÙK™XY[™Ë[™XY[™HÛÛ^È›Üˆ[YİH^‚‹H™]™\ˆÙ]š^YÛÛ\Û™[ZYÚÈÛˆÛÛZ[™\œÈÛ[™È[˜[ZXÈ[YİHİš[™ÜÎÈ[İÈ[HÈ^[™[Û™ÈH›ØÚÈ^\ÈÚ]›^X›HZ[‹ZZYÚÛÛœİ˜Z[Ë‚‹H\Ü^HXY[™\È\ÙHHX]HÙZYÚ
+Ì
+HÈ™[XZ[ˆÚ\œÛˆYÙ]İÙ\‹QH[™›ÚYØÜ™Y[œË‚‚ˆÈÈ^[İ]	ˆÜXÚ[™Â‚•H^[İ]\È\˜Ú]XİY\ÈH
+Š›[Øš[KYš\œİ›ZYÛÛ[[ˆŞ\İ[JŠ‹Ø[Xœ˜]YÜXÚYšXØ[H›Üˆ[™›ÚYšY]ÜÜÈ™]ÙY[ˆÍŒ[™LœÚY‚‚‹H
+Š’Üš^›Û[ÛÛ™š[™[Y[ŠŠˆXœÛÛ]H™\›ÈÜš^›Û[ØÜ›ÛˆHš[X\HÛÛZ[™\ˆ\Ù\ÈX\™Ú[ˆ\™[X
+Mœ
+HY[™ÈYØZ[œİØÜ™Y[ˆ›İ[™\šY\ËÛÛ\Ú[™ÈÈ›È\ÜÈ[ˆLœÛˆYÙH]šXÙ\È
+ÌŒ
+K‚‹H
+Š•İXÚ\™Ù][YÜš]NŠŠˆ[[\˜Xİ]™HØš™XİÈ
+]ÛœË]Y[ÈšYÙÙ\œËØ\™Ù[XİÜœË›İÛH˜]ˆšYÙÙ\œÊHX[™]H[ˆXœÛÛ]HZ[š[][H›İ[™[™È›ŞÙˆ
+Š0åÈ
+Š‹Ú]™XÛÛ[Y[™YÚ[YœšY[™Hš[X\HXİ[ÛœÈÙ]È
+ŠMœ
+Š‹‚‹H
+Š›İÛH˜]šYØ][ÛˆØY™]NŠŠˆÈXØÛÛ[[Ù]H[™›ÚYÔÈÙ\İ\™H[È[™\ÚXØ[İXÚ]ÛœËH›İÛH˜]šYØ][Ûˆ˜\ˆ]\İ[™›Ü˜ÙH˜]]™HØY™KX\™XH[œÙ]Y[™È
+[ŠØY™KX\™XKZ[œÙ]X›İÛKMœ
+X
+È
+K‚‹H
+Š•™\XØ[ØØ[›˜Xš[]NŠŠˆÚ[™ÛKXÛÛ[[ˆÛÛ[Ø\™ÈÛZ[˜]HHšY]ÈÛÈ[İ[™ÈX\›™\œÈ\™H™]™\ˆÛÛ™\ÙYHÛÛ\][™È\˜[[]Hİ™X[\Ë‚‚ˆÈÈ[]˜][Ûˆ	ˆ\‚•š\İX[Y\˜\˜ÚH\Ù\È
+ŠXİ[HÙ™œÙ]ÚYİÜÊŠˆÛÛXš[™YÚ]Û˜[ÛÛ˜\İ˜]\ˆ[ˆYÚX›\ˆÛÜœÜ˜]H›ÜÚYİÜËˆ\ÈÜ™X]\ÈHÚ[šŞK\ÚXØ[ŞK[ZÙH\]ÛX\›HÛÛ[][šXØ]\È\Xš[]HÈ[İ[™ÈÚ[™[‹‚‚‹H
+Š“]™[
+›]İ\™˜XÙJNŠŠˆÛÙ˜XÚÙÜ›İ[™ÛÛZ[™\œÈ
+Ñ‘‘‘Q˜
+H[™™\İYX\›š[™È[Ù[\È]™H›ÈÚYİÈ[™Ú]›\ÚÚ]HØ[˜\Ë‚‹H
+Š“]™[H
+[\˜Xİ]™HØ\™È	ˆ]Y\İÊNŠŠˆİ\™˜XÙHØ\™È
+Ñ‘‘‘‘‘˜
+H™X]\™HHÛÛY›Ü™\ˆ
+K\ÛÛY™Ø˜JŒKLËNKŒLŠX
+H[™[ˆ[XšY[İËX›\ˆØ\›HÚYİÈ
+™Ø˜JM‹KËŒ
+X
+K‚‹H
+Š“]™[ˆ
+Xİ]™H	ˆ\X›H]ÛœÊNŠŠˆ[\˜Xİ]™H]ÛœÈ[\ŞH\ÚXØ[›İÛKX™]™[Yİ[[™È
+ÌLL‘˜›Üˆš[X\HÜ™Y[ˆ]ÛœÎÈĞÎPLŒØ›Üˆ™]Ø\™ÛÛ]ÛœÊKˆÚ[ˆ™\ÜÙY
+˜Xİ]™X
+KH[[Y[˜[œÛ]\ÈİÛˆÜ[™HÚYİÈ™YXÙ\ÈÈ\[]™\š[™È™X[Xİ[H™YY˜XÚË‚‹H
+Š“]™[È
+[Ù[È	ˆÙ[Xœ˜][Ûˆİ™\›^\ÊNŠŠˆ[Ù[Ø\™ÈÚ]İ™\ˆH	HÜXÚ]HY\Y›Ü™\İ[˜XÚÙ›Ü
+™Ø˜JM‹KËJX
+K[]˜]YÚ]HY™\ÙHLœ™Ø˜JŒMJX‚‚ˆÈÈÚ\\Â‚•H\ÚYÛˆŞ\İ[H[˜ÛÜœÜ˜]\ÈœšY[™KÙ[ÛÛZ[™Èİ\˜]\™HÚ]]™[ˆ›İ[™Y™\ÜÈ
+\™[X˜\ÙKØØ[[™ÈÈ\™[XÛˆš[X\HØ\™È[™K\™[XÛˆ™X]\™Y˜YÙ\ÊK‚‚‹H
+ŠØ\™È	ˆ\ÚÈÛÛZ[™\œÎŠŠˆ\ÙH›İ[™Y[Ø
+\™[XÈMœ
+HÈ›ÙXÙHÛÙÛÜ›™\œÈ]™Y[ØY™K[Ù\›‹[™œšY[™K‚‹H
+Š]Y[ÈšYÙÙ\œÈ	ˆ˜YÙ\ÎŠŠˆ\ÙH[ÜˆÚ\˜ÛHİ[[™È
+NNN\
+HÈ[[YYX][HÛÛ™^HXİ[Û˜X›H][]H\İ[˜İœ›ÛH[™›Ü›X][Û˜[^[İ]Ø\™Ë‚‹H
+Š]ÛœÎŠŠˆ[™›Ü˜ÙH›İ[™Y[Y
+Í\™[XÈLœ
+HÈ™\Ù\™Hİ›Û™È\Ù[ÛY]HÚ[H]›ÚY[™ÈÙ]™\™HÜˆÚ\œÛÜ›™\œË‚‚ˆÈÈÛÛ\Û™[Â‚ˆÈÈÈ]ÛœÂ‹H
+Š”š[X\HÕNŠŠˆ˜XÚÙÜ›İ[™ÌMMQĞ˜^Ñ‘‘‘‘‘˜Z[š[][HZYÚLœ›İ[™YLœÚ]HÛÛY›İÛH[]˜][Ûˆš[H
+ÌLL‘˜
+Kˆ[˜ÛY\È\™ÙHXÛÛˆZ\š[™È
+K™Ë‹Ûİ[™ÜˆšYÚX\œ›İÊH]Z[š[][H‚‹H
+Š]Y[È›Û\
+\İ[ˆ]ÛŠNŠŠˆÚ\˜ÛHÜˆ[›Ü›X]˜XÚÙÜ›İ[™ÌÑÎXÛÛˆÑ‘‘‘‘‘˜Z[š[][H[Y[œÚ[ÛœÈ0åÈˆ›İšY\ÈYÚXÛÛ˜\İXÛİ\İXÈİ\Ü›Üˆ›Û‹Y›Y[™XY\œË‚‹H
+Š”™]Ø\™Xİ[ÛŠŠˆ˜XÚÙÜ›İ[™ÑŒĞMX^ÌLL‘˜›İÛHš[H
+ĞÎPLŒØ
+K‚‚ˆÈÈÈØ\™È	ˆ\ÜÛÛˆ›Ù\Â‹Hİ\™˜XÙHØ\™È\™HÜš\ÜÑ‘‘‘‘‘˜œ˜[YYHHİXH›Ü™\ˆ
+K\ÛÛY™Ø˜JŒKLËNKŒLŠX
+HÛˆÑ‘‘‘Q˜Ø[˜\Ë‚‹HXİ]™H^\˜Ú\Ù\È\Ü^HÛX\ˆÛÛ\][ÛˆZ[\İÛ™\ÈšXHZ[İ]H
+ÑQN
+H˜YÙ\ÈÛÛZ[š[™ÈY\›Ü™\İÜ™Y[ˆ^
+ÌLL‘˜
+K‚‹H[YİHXY\ˆ^[œÚYHØ\™È]\İ[™›Ü˜ÙH[™KZZYÚˆKX[™›Û\Ú^™HHNÈXZ[Z[ˆÛX\ˆ™XYXš[]H›ÜˆX\›HX\›™\œË‚‚ˆÈÈÈÚ\È	ˆYÜÂ‹H\ÙY›ÜˆİXš™XİØ]YÛÜš^˜][Ûˆ
+K™Ë‹8,%
+Âğ°¤à°‚ / Math, à°ªà°°à°¼,.8,,8,/¸,,ˆ8,-x,/ø,'8,cx,'¸,/¸,*8, ˆÈU”ÊK‚‹H˜XÚÙÜ›İ[™ÑQN^ÌMMQĞ˜›İ[™YNNN\Ú]Üš^›Û[Y[™ÈÙˆM[™™\XØ[Y[™ÈÙˆœ‚‚ˆÈÈÈÚXÚØ›Ş\È	ˆ][\HÚÚXÙHÙ[XİÜœÂ‹H›Ü›X]Y\È[]ÚY[\˜Xİ]™HØ\™È
+Z[š[][HZYÚMœ
+H˜]\ˆ[ˆÛX[˜Y[ÈÛÛ›ÛË‚‹H[œÙ[XİYˆÚ]H˜XÚÙÜ›İ[™İXH›Ü™\‹\™ÙHš\İX[[œİÙ\ˆİYK‚‹HÙ[XİYˆ˜XÚÙÜ›İ[™[ÑQNš[X\H›Ü™\ˆœÛÛYÌMMQĞ˜˜Z[[™ÈÜ™Y[ˆÚXÚÛX\šÈXÛÛ‹‚‚ˆÈÈÈ›İÛH˜]šYØ][Ûˆ˜\‚‹Hš^Y]šY]ÜÜ›İÛK˜XÚÙÜ›İ[™Ñ‘‘‘‘‘˜Ú]Ü›Ü™\ˆ\ÛÛY™Ø˜JŒKLËNKŒLŠX‚‹H™X]\™\È(	3B&–Ö'’FW7F–æF–öç2v—F‚÷fW'6—¦VB–6öç2†#‡†’ÂÆ&VÇ2&VæFW&VB–â&–Æ–æwVÂf÷&ÖBÂæBF÷V6‚†—F&÷†W2öbBÆV7BS'†v–FR'’Sg†FÆÂ

@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+  --font-telugu: 'Noto Sans Telugu', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  --color-primary: #155D3B;
+  --color-primary-dark: #10452F;
+  --color-secondary: #287D78;
+  --color-tertiary: #F2CB55;
+  --color-ivory: #FFFBEF;
+  --color-mint: #DDF5E8;
+  --color-mint-light: #EBF9F1;
+  --color-gold: #F2CB55;
+  --color-gold-dark: #CCA835;
+  --color-terracotta: #C85A32;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Telugu', system-ui, sans-serif;
+  background-color: #FFFBEF;
+  color: #1C1C15;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.font-telugu {
+  font-family: 'Noto Sans Telugu', system-ui, sans-serif;
+  line-height: 1.66;
+}
+
+/* Tactile 3D physical toy buttons */
+.tactile-btn-green {
+  background-color: #155D3B;
+  color: #FFFFFF;
+  box-shadow: 0 4px 0 #10452F;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+.tactile-btn-green:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #10452F;
+}
+
+.tactile-btn-gold {
+  background-color: #F2CB55;
+  color: #4F3E00;
+  box-shadow: 0 4px 0 #CCA835;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+.tactile-btn-gold:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #CCA835;
+}
+
+.tactile-btn-teal {
+  background-color: #287D78;
+  color: #FFFFFF;
+  box-shadow: 0 4px 0 #14706B;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+.tactile-btn-teal:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #14706B;
+}
+
+.tactile-btn-white {
+  background-color: #FFFFFF;
+  color: #10452F;
+  border: 1.5px solid rgba(16, 69, 47, 0.2);
+  box-shadow: 0 4px 0 rgba(16, 69, 47, 0.15);
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+.tactile-btn-white:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 rgba(16, 69, 47, 0.15);
+}
+
+.tactile-card {
+  box-shadow: 0 4px 0 rgba(16, 69, 47, 0.08);
+}
+
+.tactile-card-selected {
+  box-shadow: 0 4px 0 #155D3B;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFBEF;
+}
+::-webkit-scrollbar-thumb {
+  background: #DDF5E8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8ED4A9;
+}
